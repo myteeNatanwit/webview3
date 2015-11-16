@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D11369C1BF99C51007D1131 /* popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D11369A1BF99C51007D1131 /* popup.swift */; };
+		4D11369D1BF99C51007D1131 /* popup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D11369B1BF99C51007D1131 /* popup.xib */; };
 		4D373F601BF2E0C300B4E37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D373F5F1BF2E0C300B4E37D /* AppDelegate.swift */; };
 		4D373F621BF2E0C300B4E37D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D373F611BF2E0C300B4E37D /* ViewController.swift */; };
 		4D373F671BF2E0C300B4E37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D373F661BF2E0C300B4E37D /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D11369A1BF99C51007D1131 /* popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popup.swift; sourceTree = "<group>"; };
+		4D11369B1BF99C51007D1131 /* popup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popup.xib; sourceTree = "<group>"; };
 		4D373F5C1BF2E0C300B4E37D /* webview3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webview3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D373F5F1BF2E0C300B4E37D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D373F611BF2E0C300B4E37D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,10 +84,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1136991BF99C51007D1131 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				4D11369A1BF99C51007D1131 /* popup.swift */,
+				4D11369B1BF99C51007D1131 /* popup.xib */,
+			);
+			path = popup;
+			sourceTree = "<group>";
+		};
 		4D373F531BF2E0C200B4E37D = {
 			isa = PBXGroup;
 			children = (
 				4D373F931BF2FB4100B4E37D /* Default-568h@2x.png */,
+				4D1136991BF99C51007D1131 /* popup */,
 				4D73B2271BF305580068EF4B /* www */,
 				4D373F5E1BF2E0C300B4E37D /* webview3 */,
 				4D373F731BF2E0C400B4E37D /* webview1Tests */,
@@ -240,6 +254,7 @@
 			files = (
 				4D373F921BF2E20400B4E37D /* Main.storyboard in Resources */,
 				4D373F941BF2FB4100B4E37D /* Default-568h@2x.png in Resources */,
+				4D11369D1BF99C51007D1131 /* popup.xib in Resources */,
 				4D373F6A1BF2E0C300B4E37D /* LaunchScreen.storyboard in Resources */,
 				4D73B2281BF305580068EF4B /* www in Resources */,
 				4D373F671BF2E0C300B4E37D /* Assets.xcassets in Resources */,
@@ -269,6 +284,7 @@
 			files = (
 				4D373F621BF2E0C300B4E37D /* ViewController.swift in Sources */,
 				4DC9C82A1BF5830A00E48ED1 /* my_functions.swift in Sources */,
+				4D11369C1BF99C51007D1131 /* popup.swift in Sources */,
 				4D373F601BF2E0C300B4E37D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
