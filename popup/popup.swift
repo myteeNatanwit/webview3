@@ -1,6 +1,5 @@
 //
 //  popup.swift
-//  Konvo
 //
 //  Created by Michael Tran on 27/10/2015.
 //  Copyright © 2015 intcloud. All rights reserved.
@@ -17,7 +16,7 @@ class popup: UIViewController {
        
         // Do any additional setup after loading the view.
     }
-
+// self dismiss the screen
     @IBAction func btn_x_onclick(sender: AnyObject) {
      self.dismissViewControllerAnimated(true, completion: {});
     }

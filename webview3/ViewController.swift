@@ -51,9 +51,9 @@ class ViewController: UIViewController, UIWebViewDelegate {
             {
                 myrecord = process_scheme((request.URL?.absoluteString)!);
                 switch myrecord.function {
-                case "ios_alert":alert("Bridging" , message: myrecord.param);
-                case "ios_popup": pop_new_page(myrecord.param);
-                default : print("dont know function name: \(myrecord.function)")
+                    case "ios_alert":alert("Bridging" , message: myrecord.param);
+                    case "ios_popup": pop_new_page(myrecord.param);
+                    default : print("dont know function name: \(myrecord.function)")
                 }
 
                 return false;
